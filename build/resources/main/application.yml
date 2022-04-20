@@ -1,0 +1,35 @@
+spring:
+  security:
+    user:
+      password: Test12345_
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://127.0.0.1:3306/springjwt?autoReconnect=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: SUni24$*
+    hikari:
+      idle-timeout: 10000
+      connection-timeout: 15000
+      max-lifetime: 1800000
+      maximum-pool-size: 10
+      pool-name: springHikariCP
+      minimum-idle: 5
+      connection-test-query: select 1
+    redis:
+      host: 10.64.95.46
+      port: 6379
+      password: APtcd46
+      lettuce:
+        pool:
+          max-active: 16
+          max-idle: 8
+          min-idle: 4
+    jpa:
+      generate-ddl: false
+      hibernate:
+        show_sql: true
+        naming:
+          physical-strategy: com.timescard.auth.config.CustomNamingStrategy
+    jackson:
+      time-zone: Asia/Kolkata
