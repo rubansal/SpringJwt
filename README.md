@@ -1,3 +1,13 @@
 # SpringJwt
 
 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
+
+
+
+
+MYSQL_ADDON_HOST=b0zra9wohxdsetqgufe1-mysql.services.clever-cloud.com
+MYSQL_ADDON_DB=b0zra9wohxdsetqgufe1
+MYSQL_ADDON_USER=ubwf3iszi2cpmbk9
+MYSQL_ADDON_PORT=3306
+MYSQL_ADDON_PASSWORD=3Jh98EegIqQnZ0loZvM9 
+MYSQL_ADDON_URI=mysql://ubwf3iszi2cpmbk9:3Jh98EegIqQnZ0loZvM9@b0zra9wohxdsetqgufe1-mysql.services.clever-cloud.com:3306/b0zra9wohxdsetqgufe1
